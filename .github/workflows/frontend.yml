@@ -22,6 +22,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./replichain-frontend
+          file: ./replichain-frontend/Dockerfile
           push: true
           tags: |
             ankitlal1802/replichain-frontend:latest
